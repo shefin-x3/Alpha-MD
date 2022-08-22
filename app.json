@@ -1,0 +1,263 @@
+{
+    "name": "Alpha-X-Multi-Device-Bot",
+    "description": "🚀 Alpha-X project is bot for whatsapp, With enjoyable things and fun to use whatsapp 😉",
+    "logo": "https://telegra.ph/file/c265e654e3ec87c78d984.jpg",
+    "keywords": [
+        "whatsapp",
+        "userbot",
+        "Asena",
+        "WhatsAsena",
+        "bot",
+        "api",
+        "ai",
+        "alpha",
+        "node.js",
+        "fb",
+        "wtzp",
+        "userbot",
+        "insta",
+        "srilanka",
+        "keywords",
+        "team"
+    ],
+    "repository": "https://github.com/SL-Alpha-X-Team/Alpha-X-MD-Bot-Installer",
+    "website": "https://alpha-x.ml/wa-bot",
+    "success_url": "https://alpha-x.ml/wa-bot",
+    "stack": "container",
+    "env": {
+        "SESSION": {
+            "description": "Type here your QR code. Get it using >> replit.com/@AlphaXteam/Alpha-X-MD-Qr",
+            "required": true
+        },
+        "DATABASE_URL": {
+            "description": "Type here your SQL db url. Dont know how to get >> watch this video. (youtu.be/zlPCUzocwHw)",
+            "required": true
+        },
+        "WORK_TYPE": {
+            "description": "Alpha-X Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
+            "required": true,
+            "value": "private"
+        },
+        "LANGUAGE": {
+            "description": "Bot language - English => EN , Sinhala=> SI , Kannada => KN , Turkish => TR , Malayalam => ML , Russian => RU , Azerbaijian => AZ , Hindi => HI [ More Languages coming soon.. ]",
+            "required": true,
+            "value": "EN"
+        },
+        "HANDLERS": {
+            "description": "Give Handlers For your commands",
+            "required": true,
+            "value": "^[.,/#*?]"
+        },
+        "USER_NAME": {
+            "description": "Enter your name here.",
+            "required": true
+        },
+        "COMMAND_LIST_KEY": {
+            "description": "Customizable COMMAND LIST KEY type a key to get all command list >> EX: alpha",
+            "required": false,
+            "value": "alphaMD"
+        },
+        "ALIVE_MSG_KEY": {
+            "description": "Customizable ALIVE MSG KEY type a key to check if bot work >> EX: alive",
+            "required": false,
+            "value": "alive"
+        },
+        "SUDO": {
+            "description": "Sudo mode is gives other controler for your bot , Leave it blank if you'r not using it , Number must be Like 94XXXXXXX,0",
+            "required": true,
+            "value": "false"
+        },
+        "SEND_REACT": {
+            "description": "Write true if you want to auto react to commands.",
+            "required": true,
+            "value": "true"
+        },
+        "BLOCK_CHAT": {
+            "description": "Choose which chat the bot won't work there. Ex: 945xxxx && 94xxxx-1xxx or 91xxxx,94xxx...",
+            "required": false,
+            "value": "false"
+        },
+        "BLOCK_USERS": {
+            "description": "Choose which users that bot won't work in groups. Ex: 945xxxx && 94xxxx-1xxx or 91xxxx,94xxx...",
+            "required": false,
+            "value": "false"
+        },
+        "SEND_READ": {
+            "description": "Write true if you want to throw seen.",
+            "required": true,
+            "value": "true"
+        },
+        "PM_BLOCK": {
+            "description": "Write true if you want to block inbox commands ( not for you)",
+            "required": true,
+            "value": "false"
+        },
+        "NO_ONLINE": {
+            "description": "Type true if you don't want to appear online.",
+            "required": false,
+            "value": "true"
+        },
+        "BGM": {
+            "description": "",
+            "required": false,
+            "value": "off"
+        },
+        "AI_LILY": {
+            "description": "",
+            "required": false,
+            "value": "false"
+        },
+        "ANTI_LINK": {
+            "description": "",
+            "required": false,
+            "value": "false"
+        },
+        "CUSTOM_BLOCK_LINKS": {
+            "description": "",
+            "required": false,
+            "value": "false"
+        },
+        "AUTO_BIO": {
+            "description": "Set true for auto date to your bio, time in biography.",
+            "required": true,
+            "value": "false"
+        },
+        "BADWORDS_KICK": {
+            "description": "",
+            "required": false,
+            "value": "false"
+        },
+        "ALIVE_MSG": {
+            "description": "Customizable Alive Message! Use => 'default', to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "AFK_MSG": {
+            "description": "Customizable AFK Message! Use => 'default', to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "KICKME_MSG": {
+            "description": "Customizable KICKME_MSG! Use => 'default', to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "ADD_MSG": {
+            "description": "Customizable ADD_MSG Use => 'default', to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "PROMOTE_MSG": {
+            "description": "Customizable PROMOTE_MSG Use => 'default', to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "DEMOTE_MSG": {
+            "description": "Customizable DEMOTE_MSG Use => 'default', to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "BAN_MSG": {
+            "description": "Customizable ADD_MSG Use => 'default', to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "MUTE_MSG": {
+            "description": "Customizable MUTE_MSG Use => 'default', to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "UNMUTE_MSG": {
+            "description": "Customizable UNMUTE_MSG Use => 'default', to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "BLOCK_MSG": {
+            "description": "Customizable BLOCK_MSG Use => 'default', to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "UNBLOCK_MSG": {
+            "description": "Customizable UNBLOCK_MSG Use => 'default', to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "CAPTION": {
+            "description": "Customizable CAPTION Message! Type a caption for bot.",
+            "required": false,
+            "value": "﹝⚕️﹞ ᴍᴀᴅᴇ ʙʏ ᴀʟᴘʜᴀ-x-ᴍᴅ-ʙᴏᴛ ﹝⚕️﹞"
+        },
+        "BIO_NAME": {
+            "description": "Customizable Auto Bio Name Message!, type a name or somthing to show with auto bio.",
+            "required": false,
+            "value": "៚ ᴀᴜᴛᴏ ʙɪᴏ ꜱʏꜱᴛᴇᴍ 🤹🏻‍♂️"
+        },
+        "BOT_NAME": {
+            "description": "Customizable BOT NAME! Type a Name for your bot.",
+            "required": false,
+            "value": " *🔥 Ａｌｐｈａ-Ｘ-WA-Bot 🔥* "
+        },
+        "COMMAND_EMOJI": {
+            "description": "Customizable COMMAND_EMOJI to show in command list.",
+            "required": false,
+            "value": "﹝⚙️﹞"
+        },
+        "DESC_EMOJI": {
+            "description": "Customizable DESC_EMOJI to show in command list.",
+            "required": false,
+            "value": "﹝🪪﹞"
+        },
+        "WARN_EMOJI": {
+            "description": "Customizable WARN_EMOJI to show in command list.",
+            "required": false,
+            "value": "﹝⚠️﹞"
+        },
+        "ALIVE_PIC": {
+            "description": "Customizable ALVE_PIC!, Type a image link here.",
+            "required": false,
+            "value": "https://telegra.ph/file/dc8e4edc7230cedbdec2c.jpg"
+        },
+        "WLCM_GIF": {
+            "description": "Customizable WLCM_GIF!, Type a video link here.",
+            "required": false,
+            "value": "https://telegra.ph/file/338cb7f0b2b01e463efcd.mp4"
+        },
+        "GBYE_GIF": {
+            "description": "Customizable GBYE_GIF!, Type a video link here.",
+            "required": false,
+            "value": "https://telegra.ph/file/88f85fe6850015ae49067.mp4"
+        },
+        "DEBUG": {
+            "description": "Debug level.",
+            "required": true,
+            "value": "debug"
+        },
+        "HEROKU": {
+            "description": "If it is running in Heroku, type true.",
+            "required": true,
+            "value": "true"
+        },
+        "HEROKU_API_KEY": {
+            "description": "Heroku API Key.",
+            "required": true,
+            "value": ""
+        },
+        "HEROKU_APP_NAME": {
+            "description": "Heroku APP Name.",
+            "required": true,
+            "value": ""
+        }
+    },
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }
+    ]
+}
+
